@@ -8,5 +8,5 @@
   "license" : "SEE LICENSE IN ARPHICPL.TXT",
   "scripts": {
     "prepublishOnly": "cp -r data/* ."
-  },
+  }
 }
