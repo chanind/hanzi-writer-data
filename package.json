@@ -5,5 +5,8 @@
   "description": "The character data used by Hanzi Writer. This data is derived from the Make Me a Hanzi project.",
   "repository": "chanind/hanzi-writer-data",
   "main": "index.js",
-  "license" : "SEE LICENSE IN LICENSE"
+  "license" : "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "prepublishOnly": "cp -r data/* ."
+  },
 }
