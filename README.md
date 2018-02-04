@@ -6,6 +6,8 @@ This is the character data used by [Hanzi Writer](https://github.com/chanind/han
 - This allows users who wish to import character data in NPM to do so without forcing everyone to download the character data along with Hanzi Writer. 
 - Publishing on NPM makes this data available on the [jsdelivr CDN](https://www.jsdelivr.com/package/npm/hanzi-writer-data), so data can be loaded via, for instance, https://cdn.jsdelivr.net/npm/hanzi-writer-data@latest/我.json. 
 
+Check out [https://chanind.github.io/hanzi-writer](chanind.github.io/hanzi-writer) for more info about Hanzi Writer.
+
 ## Usage
 
 By default Hanzi Writer will automatically load this character data from the jsdelivr CDN when needed, so most users don't need to worry about loading this data explicity. However, loading this data explicitly can allow Hanzi Writer to work offline which is great for mobile apps. Also, if you know in advance which characters Hanzi Writer should display you can preload the data and avoid needing to make a web request at all, which is a nice speed boost. The easiest way to load Hanzi Writer character data is via npm:
