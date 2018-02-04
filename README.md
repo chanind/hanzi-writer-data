@@ -4,6 +4,7 @@ This is the character data used by [Hanzi Writer](https://github.com/chanind/han
 
 - This data is licensed separately from the Hanzi Writer source code.
 - This allows users who wish to import character data in NPM to do so without forcing everyone to download the character data along with Hanzi Writer. 
+- Publishing on NPM makes this data available on the [jsdelivr CDN](https://www.jsdelivr.com/package/npm/hanzi-writer-data), so data can be loaded via, for instance, https://cdn.jsdelivr.net/npm/hanzi-writer-data@latest/我.json. 
 
 ## Usage
 
