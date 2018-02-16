@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "polygon": "^1.0.2",
+    "svg-path-properties": "^0.4.1"
+  }
+}
