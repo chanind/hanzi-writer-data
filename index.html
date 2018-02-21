@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Hanzi Writer Data Explorer</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1 class="title">Hanzi Writer Data Explorer</h1>
+
+        <p class="description">
+            Explore the Chinese character SVG data used by <a href="https://chanind.github.io/hanzi-writer/">Hanzi Writer</a>. These stroke paths come from the <a href="https://github.com/skishore/makemeahanzi">Make me a Hanzi</a> project.
+        </p>
+
+        <div class="controls char-input-controls">
+            <input type="text" class="char-input" id="char-input" size="1" maxlength="1" />
+            <button type="submit" id="update-char">Update</button>
+        </div>
+
+        <div id="target">
+
+        </div>
+        <div class="controls">
+            <label>
+                <input type="checkbox" checked name="transparent" id="transparent" value="1" />
+                Transparent strokes
+            </label>
+            <label class="radical-control">
+                <input type="checkbox" checked name="radical" id="radical" value="1" />
+                Color radical
+            </label>
+        </div>
+
+        <div class="do-it">Load this data via CDN</div>
+        <div class="cdn-path" id="cdn-path"></div>
+        <div>Or via NPM</div>
+        <div class="npm-path" id="npm-path"></div>
+
+        <div class="license">
+            The Character data Hanzi Writer uses is from the <a href="https://github.com/skishore/makemeahanzi">Make Me A Hanzi</a> project, which extracted the data from fonts by <a href="http://www.arphic.com/">Arphic Technology</a>, a Taiwanese font forge that released their work under a permissive license in 1999. You can redistribute and/or modify this data (in the <a href="https://github.com/chanind/hanzi-writer-data">hanzi-writer-data</a> github repository) under the terms of the <a href="http://ftp.gnu.org/non-gnu/chinese-fonts-truetype/LICENSE">Arphic Public License</a> as published by Arphic Technology Co., Ltd. A copy of this license can also be found in <a href="https://raw.githubusercontent.com/chanind/hanzi-writer-data/master/ARPHICPL.TXT">ARPHICPL.TXT</a> of the hanzi-writer-data repo.
+        </div>
+
+        <script type="application/javascript" src="explorer.js"></script>
+        
+    </body>
+</html>
