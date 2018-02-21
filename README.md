@@ -1,6 +1,6 @@
 # Hanzi Writer Data
 
-View a live-demo of this data at [https://chanind.github.io/hanzi-writer-data](chanind.github.io/hanzi-writer-data)
+View a live-demo of this data at [https://chanind.github.io/hanzi-writer-data/](chanind.github.io/hanzi-writer-data/)
 
 ## About
 
