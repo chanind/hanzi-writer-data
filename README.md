@@ -1,6 +1,6 @@
 # Hanzi Writer Data
 
-View a live-demo of this data at [https://chanind.github.io/hanzi-writer-data/](chanind.github.io/hanzi-writer-data/)
+View a live-demo of this data at [chanind.github.io/hanzi-writer-data/](https://chanind.github.io/hanzi-writer-data/)
 
 ## About
 
@@ -10,7 +10,7 @@ This is the character data used by [Hanzi Writer](https://github.com/chanind/han
 - This allows users who wish to import character data in NPM to do so without forcing everyone to download the character data along with Hanzi Writer. 
 - Publishing on NPM makes this data available on the [jsdelivr CDN](https://www.jsdelivr.com/package/npm/hanzi-writer-data), so data can be loaded via, for instance, https://cdn.jsdelivr.net/npm/hanzi-writer-data@latest/我.json. 
 
-Check out [https://chanind.github.io/hanzi-writer](chanind.github.io/hanzi-writer) for more info about Hanzi Writer.
+Check out [chanind.github.io/hanzi-writer](https://chanind.github.io/hanzi-writer) for more info about Hanzi Writer.
 
 ## Usage
 
