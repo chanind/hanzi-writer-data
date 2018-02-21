@@ -1,6 +1,12 @@
 # Hanzi Writer Data
 
-This is the character data used by [Hanzi Writer](https://github.com/chanind/hanzi-writer). This data was originally contained in the Hanzi Writer repo, but was moved out for 2 main reasons:
+## Demo
+
+View a live-demo of this data at[https://chanind.github.io/hanzi-writer-data](chanind.github.io/hanzi-writer-data)
+
+## About
+
+This is the character data used by [Hanzi Writer](https://github.com/chanind/hanzi-writer). This data was originally contained in the Hanzi Writer repo, but was moved out for several reasons:
 
 - This data is licensed separately from the Hanzi Writer source code.
 - This allows users who wish to import character data in NPM to do so without forcing everyone to download the character data along with Hanzi Writer. 
