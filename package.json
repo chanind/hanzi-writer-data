@@ -1,6 +1,6 @@
 {
   "name": "hanzi-writer-data",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "David Chanin <chanindav@gmail.com> (https://chanind.github.io/hanzi-writer)",
   "description": "The character data used by Hanzi Writer. This data is derived from the Make Me a Hanzi project.",
   "repository": "chanind/hanzi-writer-data",
