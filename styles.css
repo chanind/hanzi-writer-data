@@ -1,123 +1,142 @@
-body, html {
-    background: #f4f0ea;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 14px;
-    font-family: sans-serif;
+body,
+html {
+  background: #f4f0ea;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 body {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-input, button {
-    outline: none;
+input,
+button {
+  outline: none;
 }
-#target, .title, .controls, .cdn-path, .npm-path {
-    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+#target,
+.title,
+.controls,
+.cdn-path,
+.npm-path {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
 }
 
 .description {
-    max-width: 400px;
-    margin: 30px auto 50px;
-    line-height: 25px;
+  max-width: 400px;
+  margin: 30px auto 50px;
+  line-height: 25px;
 }
 
 .title {
-    background: white;
-    padding: 15px 0;
-    margin: 0 0 30px;
+  background: white;
+  padding: 15px 0;
+  margin: 0 0 30px;
 }
 
 #target {
-    background: white;
-    clear: both;
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
+  background: white;
+  clear: both;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 .controls {
-    width: 300px;
-    padding: 5px;
-    background: white;
-    border: 1px solid black;
-    margin: 5px auto;
-    text-align: left;
+  width: 300px;
+  padding: 5px;
+  background: white;
+  border: 1px solid black;
+  margin: 5px auto;
+  text-align: left;
 }
 
 .char-input-controls {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .char-input {
-    padding: 5px;
-    margin-right: 5px;
-    font-size: 24px;
-    display: block;
-    flex-grow: 1;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 24px;
+  display: block;
+  flex-grow: 1;
 }
 
 .do-it {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-.cdn-path, .npm-path {
-    max-width: 600px;
-    background: white;
-    padding: 10px 30px;
-    margin: 20px auto 40px;
-    display: inline-block;
-    user-select: all;
+.cdn-path,
+.npm-path {
+  max-width: 600px;
+  background: white;
+  padding: 10px 30px;
+  margin: 20px auto 40px;
+  display: inline-block;
+  user-select: all;
 }
 .npm-path {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 .license {
-    font-size: 12px;
-    max-width: 600px;
-    margin: 50px auto 0;
+  font-size: 12px;
+  max-width: 600px;
+  margin: 50px auto 0;
 }
 
-.license, .license a {
-    color: #999;
-    text-shadow: 1px 1px 0 white;
+.license,
+.license a {
+  color: #999;
+  text-shadow: 1px 1px 0 white;
 }
 
 .controls label {
-    display: block;
-    margin: 5px 0;
+  display: block;
+  margin: 5px 0;
 }
 
 path {
-    fill: #555;
-    stroke: #000;
-    stroke-width: 0;
-    transition: all 500ms;
+  fill: #555;
+  stroke: #000;
+  stroke-width: 0;
+  transition: all 500ms;
 }
 
 .transparent-strokes path {
-    fill: rgba(0,0,0,0.4);
-    stroke-width: 2px;
+  fill: rgba(0, 0, 0, 0.4);
+  stroke-width: 2px;
+}
+
+path.median-stroke {
+  fill: none;
+  stroke: rgba(0, 0, 0, 0.4);
+  stroke-width: 3px;
+  opacity: 0;
+}
+
+.show-medians path.median-stroke {
+  opacity: 1;
 }
 
 .radical-control {
-    color: #AAA;
+  color: #aaa;
 }
 
 .has-radical-data .radical-control {
-    color: initial;
+  color: initial;
 }
 
 .color-radical .radical-stroke {
-    fill: rgb(22, 110, 22);
+  fill: rgb(22, 110, 22);
 }
 .transparent-strokes.color-radical .radical-stroke {
-    fill: rgba(22, 110, 22, 0.4);
+  fill: rgba(22, 110, 22, 0.4);
 }
